@@ -1,9 +1,9 @@
 # fudge
 ***Summary:***  <br>  An application for scewing image color. Go ahead, hold your mouse click down...
 
-***Dependency:***  <br>  processing js <br> http://processingjs.org/
+***Required Software:***  <br>  processing js <br> http://processingjs.org/
 
-***REQUIRED:*** <br> Place an image in the directory you are running fudge from. In the Setup function,insert the image name into the loadImage function, and, change the size function values to be (2 * width of image, height of image).
+***Required Code Config:*** <br> Place an image in the directory you are running fudge from. In the Setup function,insert the image name into the loadImage function, and, change the size function values to be (2 * width of image, height of image).
 
 <pre>
 size(2258, 750);
