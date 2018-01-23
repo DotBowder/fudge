@@ -1,11 +1,16 @@
 # fudge
-Summary:  <br>  An application for scewing image color. Go ahead, hold your mouse click down...
+***Summary:***  <br>  An application for scewing image color. Go ahead, hold your mouse click down...
 
-Dependency:  <br>  processing js <br> http://processingjs.org/
+***Dependency:***  <br>  processing js <br> http://processingjs.org/
 
-REQUIRED: <br> Place an image in the directory you are running fudge from. insert this name into the loadImage functions at the beginning of the code. Then, change the size to be (2 * width of image, height of image).
+***REQUIRED:*** <br> Place an image in the directory you are running fudge from. In the Setup function,insert the image name into the loadImage function, and, change the size function values to be (2 * width of image, height of image).
 
-Inspiration:    <br> YouTube Coding Train Challenge #90: Floyd-Steinberg Dithering <br> https://www.youtube.com/watch?v=0L2n8Tg2FwI
+<pre>
+size(2258, 750);
+img_before = loadImage("img.jpg");
+</pre>
+
+***Inspiration:***    <br> YouTube Coding Train Challenge #90: Floyd-Steinberg Dithering <br> https://www.youtube.com/watch?v=0L2n8Tg2FwI
 
 
 
