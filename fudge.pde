@@ -136,7 +136,7 @@ void draw() {
   }
   
 
-  // And Draw new image on right
+  // Draw images again
   image(img_before, 0, 0);
   image(img_after, img_before.width, 0);
 
