@@ -3,8 +3,10 @@ Summary:  <br>  An application for scewing image color. Go ahead, hold your mous
 
 Dependency:  <br>  processing js <br> http://processingjs.org/
 
+REQUIRED: <br> Place an image in the directory you are running fudge from. insert this name into the loadImage functions at the beginning of the code. Then, change the size to be (2 * width of image, height of image).
 
 Inspiration:    <br> YouTube Coding Train Challenge #90: Floyd-Steinberg Dithering <br> https://www.youtube.com/watch?v=0L2n8Tg2FwI
+
 
 
 Every pixel is adjusted based on the values of the pixels around it. As the pixel dist value is adjusted by holding the mouse click, the red, green, and blue colors of the image are dispersed into different directions.
