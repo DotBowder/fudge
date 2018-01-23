@@ -7,7 +7,7 @@ Dependency:  <br>  processing js <br> http://processingjs.org/
 Inspiration:    <br> YouTube Coding Train Challenge #90: Floyd-Steinberg Dithering <br> https://www.youtube.com/watch?v=0L2n8Tg2FwI
 
 
-Every pixel is adjusted based on the values of the pixels around it. As the pixel dist value is adjusted by holding the mouse click, the red, gree, and blue colors of the image are dispersed into different directions.
+Every pixel is adjusted based on the values of the pixels around it. As the pixel dist value is adjusted by holding the mouse click, the red, green, and blue colors of the image are dispersed into different directions.
 <pre>
 RED
    [p1r * 1/8],[p2r * 2/8],[p3r * 3/8]
