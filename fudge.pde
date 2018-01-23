@@ -97,15 +97,17 @@ void updateImages() {
       float p8g = green(p8);
       float p8b = blue(p8);
       
-      float min_start = 0;
-      float max_start = 255;
-      float min_end = 0;
-      float max_end = 255;
-      
       // Distort the r, g, b values
       float r_new_unscaled = p1r * (1/8)   + p2r * (2/8)   + p3r * (3/8)   + p4r * (4/8)   + p5r * (5/8)   + p6r * (6/8)   + p7r * (7/8)   + p8r * (8/8);
       float g_new_unscaled = p1r * (4/8)   + p2r * (5/8)   + p3r * (6/8)   + p4r * (7/8)   + p5r * (8/8)   + p6r * (1/8)   + p7r * (2/8)   + p8r * (3/8);
       float b_new_unscaled = p1r * (8/8)   + p2r * (7/8)   + p3r * (6/8)   + p4r * (5/8)   + p5r * (4/8)   + p6r * (3/8)   + p7r * (2/8)   + p8r * (1/8);
+      
+      // If the Distortion needs to be scaled, we can adjust the following scale values.
+      // We want the output, the end, from 0 to 255.
+      float min_start = 0;
+      float max_start = 255;
+      float min_end = 0;
+      float max_end = 255;
       
       // Scale the r, g, b values after distortion, mapping them from 0 to 255 
       int r_new = round(map(r_new_unscaled, min_start, max_start, min_end, max_end));
