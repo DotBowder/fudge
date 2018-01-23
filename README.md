@@ -34,3 +34,6 @@ RED
    [x - dist,      y   ]   [     val     ]   [x + dist,     y   ]
    [x - dist,  y + dist]   [ x,  y + dist]   [x + dist, y + dist]
  </pre>
+
+
+![Example](https://raw.githubusercontent.com/DotBowder/fudge/master/example/End.png)
