@@ -6,9 +6,7 @@ int dist = 4;
 
 void setup() {
   img_before = loadImage("img.jpg");
-  img_before.filter(GRAY);
   img_after = loadImage("img.jpg");
-  img_before.filter(GRAY);
   size(2880, 1000);
   // Draw original image on left
   image(img_before, 0, 0);
