@@ -1,5 +1,5 @@
 # fudge
-***Summary:***  <br>  An application for scewing image color. Go ahead, hold your mouse click down...
+***Summary:***  <br>  An application for skewing image color. Go ahead, hold your mouse click down...
 
 ***Required Software:***  <br>  processing js <br> http://processingjs.org/
 
